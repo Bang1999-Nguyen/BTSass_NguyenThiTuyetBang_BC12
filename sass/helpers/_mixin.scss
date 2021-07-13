@@ -55,3 +55,13 @@
         @content;
     }
 }
+@mixin responsive_411() {
+    @media #{$res_411} {
+        @content;
+    }
+}
+@mixin responsive_769() {
+    @media #{$res_769} {
+        @content;
+    }
+}

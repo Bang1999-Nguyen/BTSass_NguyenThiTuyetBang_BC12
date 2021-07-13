@@ -176,3 +176,45 @@
         }
     }
 }
+@include responsive_411{
+    .container{
+        max-width:411px;
+    }
+    .contents{
+        height:3500px;
+        .row{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            .content__item{
+                width:350px;
+                margin-left:10px;
+            }
+        }
+        .reverse{
+            bottom:-90px;
+            position:absolute;
+            left:0;
+        }
+    }
+}
+@include responsive_375 {
+    .container{
+        max-width:769px;
+    }
+    .contents{
+        height:1600px;
+        .row{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            .content__item{
+                width:330px;
+                margin-left:10px;
+            }
+        }
+        .reverse{
+            bottom:-90px;
+            position:absolute;
+            left:0;
+        }
+    }
+}

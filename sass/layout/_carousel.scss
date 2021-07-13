@@ -146,3 +146,30 @@
 
     }
 }
+@include responsive_411{
+    .teamCarousel{
+        .footer__light{
+            margin-top:-135px;
+        }
+    }
+}
+@include responsive_375 {
+    .teamCarousel {
+        .footer__light{
+           margin-top:-60px;
+        }
+        .row{
+            display:inline-block;
+            h1{
+                width:700px;
+            }
+            .images{
+                 width:500px;
+                 margin-right:140px;
+                 margin-left:80px;
+            }
+        }
+ 
+     }
+}
+
